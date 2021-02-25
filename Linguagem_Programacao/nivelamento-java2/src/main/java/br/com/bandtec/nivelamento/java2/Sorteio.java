@@ -16,17 +16,19 @@ public class Sorteio {
         do{
             System.out.print("Digite um número entre 1 e 100: ");
             numero = scan.nextInt();
+
         }while(numero < 0 || numero > 100);
 
         for(int i = 0; i <= 200; i++){
             Integer numeroAleatorio = ThreadLocalRandom.current().nextInt(0, 101);
+
             if(numeroAleatorio % 2 == 0){
                 pares++;
             }else{
                 impares++;
             }
             if(numeroAleatorio == numero){
-                System.out.println("Número sorteado na posição: " + i);
+                System.out.println("Número sorteado " + numero + " na posição: " + i + "º");
             }
         }
 
