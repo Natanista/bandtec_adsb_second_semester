@@ -39,10 +39,7 @@ public class calculaPeso {
             altura = scan.nextDouble();
         }while(altura < 0);
 
-
         calculaPeso(sexo,altura);
-
-
 
     }
 }

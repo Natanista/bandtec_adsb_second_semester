@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3303ed46-e992-4a88-83c0-8d73ab8e28bb" name="Default Changelist" comment="" />
+    <list default="true" id="3303ed46-e992-4a88-83c0-8d73ab8e28bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bandtec/calculaPeso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/calculaPeso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-api/src/main/java/br/com/bandtec/teste/api/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-api/src/main/java/br/com/bandtec/teste/api/Teste.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
