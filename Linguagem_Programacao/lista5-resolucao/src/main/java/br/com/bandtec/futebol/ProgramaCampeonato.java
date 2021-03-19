@@ -1,3 +1,5 @@
+package br.com.bandtec.futebol;
+
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ProgramaCampeonato {

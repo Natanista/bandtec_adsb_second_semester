@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e537df28-dd8f-418e-8635-d8b7e78a9a7e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../nivelamento-java3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nivelamento-java3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nivelamento-java3/src/main/java/br/com/bandtec/calculaPeso.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nivelamento-java3/src/main/java/br/com/bandtec/calculaPeso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teste-api/src/main/java/br/com/bandtec/teste/api/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-api/src/main/java/br/com/bandtec/teste/api/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Clube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/futebol/Clube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProgramaCampeonato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/futebol/ProgramaCampeonato.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +41,39 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/br/com/bandtec" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PorgramaEleicao">
+    <configuration name="PorgramaEleicao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bandtec.eleicao.PorgramaEleicao" />
+      <module name="lista5-resolucao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bandtec.eleicao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramaCalculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bandtec.calculo.ProgramaCalculo" />
+      <module name="lista5-resolucao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bandtec.calculo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProgramaCampeonato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgramaCampeonato" />
       <module name="lista5-resolucao" />
@@ -56,6 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PorgramaEleicao" />
+        <item itemvalue="Application.ProgramaCalculo" />
         <item itemvalue="Application.ProgramaCampeonato" />
       </list>
     </recent_temporary>
@@ -82,5 +111,27 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/bandtec/eleicao/UrnaEletronica.java</url>
+          <line>42</line>
+          <properties class="br.com.bandtec.eleicao.UrnaEletronica" method="registrarVotoCandidato2">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/bandtec/eleicao/UrnaEletronica.java</url>
+          <line>28</line>
+          <properties class="br.com.bandtec.eleicao.UrnaEletronica" method="registrarVotoCandidato1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,4 +1,4 @@
-
+package br.com.bandtec.futebol;
 public class Clube {
 
     private Integer vitoria = 0;
