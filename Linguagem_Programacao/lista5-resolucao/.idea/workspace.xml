@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e537df28-dd8f-418e-8635-d8b7e78a9a7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Clube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/futebol/Clube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProgramaCampeonato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bandtec/futebol/ProgramaCampeonato.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,27 +109,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/bandtec/eleicao/UrnaEletronica.java</url>
-          <line>42</line>
-          <properties class="br.com.bandtec.eleicao.UrnaEletronica" method="registrarVotoCandidato2">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/bandtec/eleicao/UrnaEletronica.java</url>
-          <line>28</line>
-          <properties class="br.com.bandtec.eleicao.UrnaEletronica" method="registrarVotoCandidato1">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
