@@ -44,10 +44,7 @@ public class Dadinhos extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         lblResultado = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        lblVitoriasDado1 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        lblVitoriasDado2 = new javax.swing.JLabel();
+        lblVitorias = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -75,13 +72,7 @@ public class Dadinhos extends javax.swing.JFrame {
         lblResultado.setFont(new java.awt.Font("Hack", 0, 14)); // NOI18N
         lblResultado.setText("<>");
 
-        jLabel4.setText("Vitória dado 1:");
-
-        lblVitoriasDado1.setText("X");
-
-        jLabel5.setText("Vitória dado 1:");
-
-        lblVitoriasDado2.setText("X");
+        lblVitorias.setText("X");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -105,9 +96,7 @@ public class Dadinhos extends javax.swing.JFrame {
                         .addGap(158, 158, 158)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel2)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(lblResultado)
-                                .addGap(6, 6, 6))))
+                            .addComponent(lblResultado)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(420, 420, 420)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -116,14 +105,8 @@ public class Dadinhos extends javax.swing.JFrame {
                                 .addGap(22, 22, 22)
                                 .addComponent(jLabel3))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(76, 76, 76)
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblVitoriasDado1)
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblVitoriasDado2)))
+                        .addGap(212, 212, 212)
+                        .addComponent(lblVitorias)))
                 .addContainerGap(80, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -147,13 +130,9 @@ public class Dadinhos extends javax.swing.JFrame {
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3)
-                .addGap(38, 38, 38)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
-                    .addComponent(lblVitoriasDado1)
-                    .addComponent(jLabel5)
-                    .addComponent(lblVitoriasDado2))
-                .addGap(36, 36, 36))
+                .addGap(35, 35, 35)
+                .addComponent(lblVitorias)
+                .addGap(39, 39, 39))
         );
 
         pack();
@@ -163,16 +142,20 @@ public class Dadinhos extends javax.swing.JFrame {
         return numeroAleatorio.toString();
     }
     
+    public void apurarResultado(){
+     String resultadoFinal = String.format("Vitórias dado 1: %d | Vitórias dado 2: %d", vitoriasDado1, vitoriasDado2);
+    lblVitorias.setText(resultadoFinal);
+    }
+    
+    
     public void verificarCampeao(Integer a, Integer b){
         if(a > b){
             lblResultado.setText("O dadinho 1 venceu!!!");
             vitoriasDado1++;
-            lblVitoriasDado1.setText(vitoriasDado1.toString());
            
         }else if(a < b){
             lblResultado.setText("O dadinho 2 venceu!!!");
             vitoriasDado2++;
-            lblVitoriasDado2.setText(vitoriasDado2.toString());
         }else{
             lblResultado.setText("Empate!!");
         }
@@ -184,6 +167,7 @@ public class Dadinhos extends javax.swing.JFrame {
            lblDado1.setText(dado1);
            lblDado2.setText(dado2);
            verificarCampeao(Integer.valueOf(dado1),Integer.valueOf(dado2));
+           apurarResultado();
     }//GEN-LAST:event_btnSorteioActionPerformed
 
     /**
@@ -226,14 +210,11 @@ public class Dadinhos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel lblDado1;
     private javax.swing.JLabel lblDado2;
     private javax.swing.JLabel lblDescricaoDado1;
     private javax.swing.JLabel lblDescricaoDado2;
     private javax.swing.JLabel lblResultado;
-    private javax.swing.JLabel lblVitoriasDado1;
-    private javax.swing.JLabel lblVitoriasDado2;
+    private javax.swing.JLabel lblVitorias;
     // End of variables declaration//GEN-END:variables
 }
