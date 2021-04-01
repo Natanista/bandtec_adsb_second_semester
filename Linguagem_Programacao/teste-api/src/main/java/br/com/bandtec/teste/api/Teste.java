@@ -27,13 +27,16 @@ public class Teste {
         gerarQuebraDeLinha();
         System.out.println(looca.getSistema());
         gerarQuebraDeLinha();
+
+        
         System.out.println(looca.getTemperatura());
+        
+        
         gerarQuebraDeLinha();
         System.out.println(looca.getProcessador());
         gerarQuebraDeLinha();
-        System.out.println(looca.getGrupoDeServicos().getServicos());
-        gerarQuebraDeLinha();
-        System.out.println(looca.getGrupoDeProcessos().getProcessos());
+        System.out.println(looca.getGrupoDeProcessos());
+
 
 
 
