@@ -26,7 +26,7 @@ public class AppFIlme {
 //template.execute("CREATE TABLE filme(id INT PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(255), tema VARCHAR(255), ano INT)");
 
 ////atualiza dados
-//        template.update("INSERT INTO filme VALUES (null,?,?,?)","Liga da Justiça","Ação",2020); ;
+//        template.update("INSERT INTO filme VALUES (null,?,?,?)","Liga da Justiça","Ação",2020);
 ////      
       List resultados = template.queryForList("SELECT * FROM filme");
 ////        
