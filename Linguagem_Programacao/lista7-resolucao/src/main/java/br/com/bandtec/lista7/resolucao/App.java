@@ -110,11 +110,11 @@ public class App extends javax.swing.JFrame {
     private void btnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPesquisarActionPerformed
         Integer cont = 0;
         for (Fruta fruta : feira) {
-            if (lblTextInput.getText().equals(fruta)) {
+            if (lblTextInput.getText().equals(fruta.getNome())) {
                 cont++;
             }
 
-            if (cont > 1) {
+            if (cont >= 1) {
                 lblResultado.setText("Achei a sua fruta!");
             } else {
                 lblResultado.setText("Não achei a fruta!");
