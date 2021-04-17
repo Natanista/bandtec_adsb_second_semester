@@ -8,18 +8,18 @@ public class Encomenda {
     private String destinatario;
     private Double distancia;
     private Double valorDaEncomenda;
-    private Boolean isSend = false;
+    private Boolean isSend;
 
 
 
-    public Encomenda(Double altura, Double largura, String endereco, String destinatario, Double distancia, Double valorDaEncomenda, Boolean isSend) {
+    public Encomenda(Double altura, Double largura, String endereco, String destinatario, Double distancia, Double valorDaEncomenda) {
         this.altura = altura;
         this.largura = largura;
         this.endereco = endereco;
         this.destinatario = destinatario;
         this.distancia = distancia;
         this.valorDaEncomenda = valorDaEncomenda;
-        this.isSend = isSend;
+        this.isSend = false;
     }
 
     public Double getAltura() {
