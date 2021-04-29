@@ -5,6 +5,9 @@
  */
 package com.bandtec.natan.xavier.c2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author natanista
@@ -28,8 +31,7 @@ public class App {
         
         loja.aplicarDesconto(pedido2,10.0);
         loja.aplicarDesconto(pedido3);
-        
-       
+
             
         loja.finalizarPedido(pedido1);
         loja.finalizarPedido(pedido2);
